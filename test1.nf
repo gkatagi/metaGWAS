@@ -18,6 +18,7 @@ process metaGWAS {
 
 	"""
 	metal ${inputfile} metal_ouput
+	Rscript create_manhattan.R METAANALYSIS1.TBL
 	"""
 
 }
